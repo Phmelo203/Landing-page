@@ -6,7 +6,7 @@ Este site foi desenvolvido com foco em estilo, conforto e desempenho para quem a
 
 ## 🖼️ Prévia do Site
 
-![Prévia do site] <img width="1894" height="846" alt="image" src="https://github.com/user-attachments/assets/484382c8-a9af-458a-a1b5-18a3fded2c62" />
+<img width="1894" height="846" alt="image" src="https://github.com/user-attachments/assets/484382c8-a9af-458a-a1b5-18a3fded2c62" />
 
 
 ---

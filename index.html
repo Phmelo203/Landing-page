@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="img/bar-icon.svg" type="image/x-icon"/>
+    <link rel="stylesheet" href="style.css">
+    <title>Runnig Shoes</title>
+</head>
+<body>
+    <div class="main-container">
+        <!-- MENU DE NAVEGAÇÃO -->
+        <div class="navbar">
+            <a href="#" class="logo" data-aos="zoom-in" data-aos-duration="1000">
+                <img src="img/logo.png" alt="Logo da loja">
+            </a>
+            <ul id="sidemenu">
+                <li data-aos="fade-up" data-aos-duration="1000" data-aos-delay="100"><a href="" class="active">Início</a></li>
+                <li data-aos="fade-up" data-aos-duration="1000" data-aos-delay="200"><a href="">Sobre</a></li>
+                <li data-aos="fade-up" data-aos-duration="1000" data-aos-delay="300"><a href="">Localização</a></li>
+                <li data-aos="fade-up" data-aos-duration="1000" data-aos-delay="400"><a href="">Páginas</a></li>
+                <li data-aos="fade-up" data-aos-duration="1000" data-aos-delay="500"><a href="">Contato</a></li>
+            </ul>
+            <div class="nav-btn" data-aos="fade-left" data-aos-duration="1000" data-aos-delay="700">
+                <button class="login-btn">Entrar</button>
+                <button id="toggleBtn" class="toggle-btn">
+                    <img src="img/bar-icon.svg" alt="Menu">
+                </button>
+            </div>
+        </div>
+
+        <!-- CONTEÚDO PRINCIPAL -->
+        <div class="bottom-content">
+            <div class="bottom-left">
+                <h1 data-aos="fade-right" data-aos-duration="1000" data-aos-delay="900">
+                    Seus pés<br>merecem<br>o melhor
+                </h1>
+                <p data-aos="fade-left" data-aos-duration="1000" data-aos-delay="1100">
+                    Conforto, estilo e tecnologia em cada passo.<br>
+                    Chegou o tênis que vai transformar o seu jeito de caminhar.<br>
+                    Com um design moderno, cores vibrantes e desempenho de alto nível,<br>
+                    você vai se destacar por onde passar!
+                </p>
+                <div class="btn-sec">
+                    <button data-aos="fade-right" data-aos-duration="1000" data-aos-delay="1300">Compre agora</button>
+                    <button data-aos="fade-left" data-aos-duration="1000" data-aos-delay="1300">Ver categorias</button>
+                </div>
+            </div>
+
+            <div class="bottom-right">
+                <img src="img/bg-effact.png" alt="Efeito de fundo" class="bg-effect" data-aos="zoom-in" data-aos-duration="2000">
+                <img src="img/shoes-img.png" alt="Imagem do tênis" class="shoes-img" data-aos="zoom-out" data-aos-duration="2000">
+            </div>
+        </div>
+    </div>
+
+    <!-- SCRIPT DO MENU MOBILE -->
+    <script>
+        const toggleBtn = document.getElementById("toggleBtn")
+        const sideMenu = document.getElementById("sidemenu")
+
+        toggleBtn.addEventListener("click", () => {
+            sideMenu.classList.toggle("active")
+        })
+    </script>
+
+    <!-- SCRIPT As(animações) -->
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+        AOS.init({ offset: 0 });
+    </script>
+</body>
+</html>

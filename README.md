@@ -25,7 +25,7 @@ Este site foi desenvolvido com foco em estilo, conforto e desempenho para quem a
 
 - **HTML5**
 - **CSS3**
-- **JavaScript** (se aplicável)
+- **SCRIPTS BASICOS**
 - **Fontes Google**: Poppins e outras personalizadas
 - **Responsividade** via CSS Flexbox
 
